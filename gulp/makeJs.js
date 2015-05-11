@@ -82,7 +82,7 @@ gulp.task('browserifyForDebug', function() {
 	    .on("error", notify.onError(function(error) {
 	    	return error.message;
 	    }))
-		.pipe(source(paths.bundleName + '.bundled.min.js'))
+		.pipe(source(paths.bundleName + '.min.js'))
 		.pipe(embedlr())
 		.pipe(gulp.dest(paths.bundleDir))
 		.pipe(connect.reload());

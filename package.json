@@ -61,7 +61,7 @@
     "url": "https://github.com/YASGUI/YASQE.git"
   },
   "dependencies": {
-    "jquery": "~ 1.11.0",
+          "jquery": "^ 2.0.0",
     "codemirror": "^4.7.0",
     "yasgui-utils": "^1.4.1"
   },
